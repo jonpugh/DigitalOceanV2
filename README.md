@@ -45,6 +45,12 @@ $ php composer.phar require kriswallsmith/buzz:~0.10
 $ php composer.phar require guzzle/guzzle:~3.7
 ```
 
+Finally run:
+
+```bash
+$ php composer.phar require toin0u/digitalocean-v2
+```
+
 Or edit `composer.json` and add:
 
 ```json
@@ -58,13 +64,14 @@ Or edit `composer.json` and add:
 }
 ```
 
-Please note that installing both guzzle and buzz is not required, but you must choose at least one.
-
-Finally run:
+hen run:
 
 ```bash
-$ php composer.phar require toin0u/digitalocean-v2
+$ php composer.phar update
 ```
+
+Please note that installing both guzzle and buzz is not required, but you must choose at least one.
+
 
 ### Using Symfony2? ###
 
